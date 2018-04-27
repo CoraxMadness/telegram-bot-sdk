@@ -1,4 +1,6 @@
 <?php
+include('vendor/autoload.php'); //Подключаем библиотеку
+use Telegram\Bot\Api;
  
 $botToken = "551613938:AAF2UWAal7wR9GHQm0NrlpkuuYN-gL1Ij5g";
 $website = "https://api.telegram.org/bot".$botToken;
